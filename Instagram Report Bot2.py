@@ -23,7 +23,7 @@ username = args.username
 acc_file = args.file
 
 if username == "" :
-	username = input("Username: ")
+	username = input("the._tripti._: ")
 
 a = open(acc_file, "r").readlines()
 file = [s.rstrip()for s in a]
